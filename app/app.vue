@@ -7,10 +7,10 @@ useHead({
   title: appName,
 })
 
-const color = useColorMode()
+const colorMode = useColorMode()
 
 const mode = computed(() => {
-  return color.value as ConfigProviderTheme
+  return colorMode.value as ConfigProviderTheme
 })
 
 const keepAliveRouteNames = computed(() => {

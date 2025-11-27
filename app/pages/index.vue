@@ -9,20 +9,20 @@ definePageMeta({
   name: 'Home',
 })
 
-const color = useColorMode()
+const colorMode = useColorMode()
 
 useHead({
   meta: [{
     id: 'theme-color',
     name: 'theme-color',
-    content: () => color.value === 'dark' ? '#222222' : '#ffffff',
+    content: () => colorMode.value === 'dark' ? '#222222' : '#ffffff',
   }],
 })
 
 const checked = computed({
-  get: () => color.value === 'dark',
+  get: () => colorMode.value === 'dark',
   set: (val: boolean) => {
-    color.preference = val ? 'dark' : 'light'
+    colorMode.preference = val ? 'dark' : 'light'
   },
 })
 
