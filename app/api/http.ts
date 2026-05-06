@@ -1,7 +1,7 @@
 import type { $Fetch } from 'ofetch'
 
-import { useRuntimeConfig } from '#app'
 import { ofetch } from 'ofetch'
+import { useRuntimeConfig } from '#app'
 
 type HttpStatusErrorHandler = (message: string, statusCode: number) => void
 let httpStatusErrorHandler: HttpStatusErrorHandler

@@ -21,9 +21,9 @@ export default defineNuxtConfig({
   },
 
   css: [
-    './app/styles/vars.css',
-    './app/styles/global.css',
-    './app/styles/default-theme.css',
+    '~/styles/vars.css',
+    '~/styles/global.css',
+    '~/styles/default-theme.css',
   ],
 
   postcss: {

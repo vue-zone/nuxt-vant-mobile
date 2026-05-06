@@ -2,7 +2,7 @@
   "name": "nuxt-vant-mobile",
   "type": "module",
   "version": "0.6.0",
-  "packageManager": "pnpm@10.30.2",
+  "packageManager": "pnpm@10.33.3",
   "engines": {
     "node": ">=20.19.0"
   },
@@ -20,32 +20,32 @@
   },
   "dependencies": {
     "@nuxtjs/color-mode": "^4.0.0",
-    "@nuxtjs/i18n": "^10.2.3",
-    "nuxt": "^4.3.1",
+    "@nuxtjs/i18n": "^10.3.0",
+    "nuxt": "^4.4.4",
     "pinia-plugin-persistedstate": "^4.7.1",
-    "vue": "^3.5.29",
-    "vue-router": "^5.0.3"
+    "vue": "^3.5.34",
+    "vue-router": "^5.0.6"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^7.4.3",
-    "@commitlint/cli": "^20.4.2",
-    "@commitlint/config-conventional": "^20.4.2",
-    "@iconify-json/carbon": "^1.2.18",
-    "@nuxt/eslint": "^1.15.1",
+    "@antfu/eslint-config": "^8.2.0",
+    "@commitlint/cli": "^20.5.3",
+    "@commitlint/config-conventional": "^20.5.3",
+    "@iconify-json/carbon": "^1.2.20",
+    "@nuxt/eslint": "^1.15.2",
     "@pinia/nuxt": "^0.11.3",
-    "@unocss/eslint-plugin": "66.6.0",
-    "@unocss/nuxt": "66.6.0",
+    "@unocss/eslint-plugin": "66.6.8",
+    "@unocss/nuxt": "66.6.8",
     "@vant/nuxt": "^1.0.7",
-    "bumpp": "^10.4.1",
-    "eslint": "^10.0.2",
-    "eslint-plugin-format": "^1.4.0",
-    "lint-staged": "^16.2.7",
+    "bumpp": "^11.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-format": "^2.0.1",
+    "lint-staged": "^16.4.0",
     "pinia": "^3.0.4",
     "postcss-mobile-forever": "^5.0.0",
     "simple-git-hooks": "^2.13.1",
-    "typescript": "^5.9.3",
-    "vant": "^4.9.22",
-    "vue-tsc": "^3.2.5"
+    "typescript": "^6.0.3",
+    "vant": "^4.9.24",
+    "vue-tsc": "^3.2.8"
   },
   "pnpm": {
     "peerDependencyRules": {
@@ -74,8 +74,8 @@
     ]
   },
   "resolutions": {
-    "vite": "^7.3.1",
-    "vue-router": "^5.0.3"
+    "vite": "^8.0.10",
+    "vue-router": "^5.0.6"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged",
