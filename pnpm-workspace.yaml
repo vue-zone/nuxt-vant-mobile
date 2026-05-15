@@ -1,0 +1,17 @@
+shamefullyHoist: true
+
+shellEmulator: true
+trustPolicy: no-downgrade
+
+trustPolicyExclude:
+  - chokidar@4.0.3
+  - semver@6.3.1
+
+allowedDeprecatedVersions:
+  glob: 10.5.0
+
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  simple-git-hooks: true
+  unrs-resolver: true
