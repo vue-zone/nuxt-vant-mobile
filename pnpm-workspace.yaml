@@ -6,6 +6,7 @@ trustPolicy: no-downgrade
 trustPolicyExclude:
   - chokidar@4.0.3
   - semver@6.3.1
+  - tinyclip@0.1.13
 
 allowedDeprecatedVersions:
   glob: 10.5.0
