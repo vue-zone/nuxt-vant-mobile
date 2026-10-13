@@ -20,7 +20,7 @@ An mobile web apps template based on the Nuxt _⁴_ ecosystem.
 
 [🌐预览](https://nuxt-vant-mobile.netlify.app) / [📖文档](https://vue-zone.github.io/docs/nuxt3-vant-mobile/) / [🗨️交流](https://github.com/vue-zone/vue3-vant-mobile/issues/56) / [📝反馈](https://github.com/vue-zone/nuxt-vant-mobile/issues)
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/vue-zone/nuxt-vant-mobile) [![Netlify Status](https://api.netlify.com/api/v1/badges/1eb0d3f7-69a1-4972-a2b7-9e317ffa5c63/deploy-status)](https://app.netlify.com/sites/nuxt-vant-mobile/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1eb0d3f7-69a1-4972-a2b7-9e317ffa5c63/deploy-status)](https://app.netlify.com/sites/nuxt-vant-mobile/deploys)
 
 </div>
 
