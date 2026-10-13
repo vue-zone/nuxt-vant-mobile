@@ -65,7 +65,7 @@ We recommend using [VS Code](https://code.visualstudio.com/) with [Volar](https:
 
 ## Try it now
 
-> nuxt-vant-mobile requires Node 22.22.0+
+> nuxt-vant-mobile requires Node 22.23.0+
 
 ### GitHub Template
 
